@@ -8,6 +8,8 @@ Originally forked from https://github.com/slackhq/python-rtmbot, python-slackbot
 
 Example Arnold Bot
 -------
+```python
+
 from slackbot import SlackBot
 import random
 
@@ -22,7 +24,7 @@ def arnold(event):
 token = 'SLACK TOKEN HERE'
 my_bot = SlackBot(token, arnold)
 my_bot.start()
-
+```
 
 
 Dependencies
