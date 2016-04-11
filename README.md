@@ -2,7 +2,7 @@ python-slackbot
 =============
 A Slack bot written in python that allows for two way communication.
 
-Originally forked from https://github.com/slackhq/python-rtmbot, python-slackbot is the simplest way to build a Bot user for Slack. Unlike python-rtmbot, this repo also has full support for UTF-8 encoding.
+Originally forked from https://github.com/slackhq/python-rtmbot, python-slackbot is the simplest way to build a Bot user for Slack. Unlike python-rtmbot, this repo has full support for messages with UTF-8 characters and automatic reconnects.
 
 
 
