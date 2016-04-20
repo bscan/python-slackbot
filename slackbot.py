@@ -73,7 +73,7 @@ class SlackBot(object):
             event['text_query'] = event['text'].replace(callout + ':', ' ').replace(callout, ' ')
             
             if not self.only_speaking_to_me or event['speaking_to_me']:
-                mtext = self.reply_func(event)
+                mtext = self.reply_func(self.slack_client, event)
 
         if mtext:
             return [Message(channel=channel, text=mtext)]
