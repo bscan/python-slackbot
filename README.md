@@ -13,7 +13,7 @@ Example Arnold Bot
 from slackbot import SlackBot
 import random
 
-def arnold(event):
+def arnold(client, event):
     # Ignore what the user said, simply generate random arnold quote
     quotes = [u"Milk is for babies. When you grow up you have to drink beer.",
               u"Start wide, expand further, and never look back.",
